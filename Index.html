@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizApp</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body> 
+  <div class="homepage">
+    <h2 id="WelText">Welcome to the Quiz!</h2>
+    <img src="Quizimg (1).png" height="115px" alt="Quiz App Logo" />
+    <div id="UserInput">
+        <h3 class="Headings">Enter Your Name Below:</h3>
+        <input type="text" id="Nameinput" placeholder="Enter your name here to start quiz....">
+        <br>
+        <button id="enterButton">Enter</button>  
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div id="CatSelect">
+        <h3 class="Headings">Select One Category For Quiz:</h3>
+        <button id="AlPage" class="CatBtn" onclick="AiPage()">AI(Artificial Inteligence)</button>
+        <button id="HrmPage" class="CatBtn" onclick="HrmPage()">Human Resource Management</button>
+        <button id="PoaPage" class="CatBtn" onclick="PoaPage()">Problem Of Ages</button>
+        <button id="WebPage" class="CatBtn" onclick="WebPage()">Web-development</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

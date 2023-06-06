@@ -1,0 +1,192 @@
+/* Here In Univarsal and body tag styling will apply on all the html pages */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #001e4d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+/* From here the styling of the home pages Nameinput and enterbutton started */
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(QuizBackImg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto 50px;
+  border-radius: 10px;
+  padding: 30px;
+}
+#WelText{
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: underline;
+}
+.Headings{
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+input[type="text"] {
+  height: 0.9cm;
+  width: 8cm;
+  border-style: none ;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px rgb(117, 117, 117);
+}
+#enterButton{
+  background-color: rgb(39, 141, 250);
+  color: rgb(0, 0, 0);
+  height: 0.9cm;
+  width: 2cm;
+  border-style: hidden ;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px rgb(117, 117, 117);
+  margin-top: 5px;
+  margin-left: 120px; 
+}
+#enterButton:hover{
+  background-color: #001e4d;
+  color: #fff;
+  transform: scaleX(1.5cm);
+  box-shadow: 2px 2px 5px 2px #fff;
+}
+
+/* Here is the styleing of the four caregory buttons */
+#CatSelect {
+  display: grid;
+  justify-content: space-evenly;
+}
+.CatBtn {
+  max-width: 350px;
+  padding: 10px 10px;
+  height: 0.8cm;
+  margin-bottom: 10px;
+  background-color: rgb(39, 141, 250);
+  color: #000000;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px rgb(117, 117, 117);
+}
+.CatBtn:hover {
+  background-color: #001e4d;
+  color: #fff;
+  transform: scaleX(1.03);
+  box-shadow: 2px 2px 5px 2px white;
+  transition: all 0.5s;
+}
+
+
+/* From here the styleing of the Category Pages have started */
+
+.CategoryPages {
+  background-image: url(QuizBackImg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+.CategoryPages h1 {
+  font-size: 25px;
+  color: #000000;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.quiz {
+  padding: 20px 0;
+}
+.quiz h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.btn {
+  background: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover:not([disabled]) {
+  background: #222;
+  color: #fff;
+}
+.btn:disabled{
+  cursor: no-drop;
+}
+#nxtbtn {
+  background: rgb(39, 141, 250);
+  color: #000000;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+#nxtbtn:hover{
+  background-color: #001e4d;
+  color: #fff;
+  box-shadow: 2px 2px 5px 2px white;
+}
+#Home {
+  background: rgb(39, 141, 250);
+  color: #000000;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+#Home:hover {
+  background-color: #001e4d;
+  color: #fff;
+  box-shadow: 2px 2px 5px 2px white;
+}
+
+
+/*showing the background color of correct and incorrect answers when selected*/
+.correct {
+  background: #3dcb7b;
+}
+.incorrect {
+  background: #d64a4a;
+}
+
+
+
+
+  
+
+
+
+
+
+
+
